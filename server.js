@@ -7,11 +7,14 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.use(logger('dev'));
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
 app.use(express.static('public'));
-app.use(require('./routes/api'));
-app.use(require('./routes/html'));
+
+// app.use(require('./routes/api'));
+// app.use(require('./routes/html'));
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
   useNewUrlParser: true,
@@ -20,7 +23,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
   useFindAndModify: false
 });
 
-
+// Start the server
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
