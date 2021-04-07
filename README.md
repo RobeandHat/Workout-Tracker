@@ -7,9 +7,10 @@
 - [Description](#project-description)
 - [Installation](#installation)
 - [Usage](#usage-information)
+- [Deployed Link](#deployed-link)
 - [Contributors](#contributors)
 - [Testing](#test-instructions)
-- [Demo-Video](#functionality)
+- [Screenshot](#screenshot)
 - [Contact Information](#questions)
 
 ---
@@ -28,7 +29,13 @@ Type "npm i" in the terminal to download the necessary node modules.
 
 ## Usage information
 
-Use the inquirer options that are provided within the CLI. Navigate with arrow keys and hit enter to select options.
+Click "new workout" to begin adding either a resistance or cardio workout. Fill out the forms and then press "add exercise" if you would like to continue adding more exercises that you have completed. Otherwise, press complete and you will be brought back to the dashboard. Press the "dashboard" link in the nav-bar to view stats for the previous week of exercises.
+
+---
+
+## Deployed Link
+
+## [Heroku Deployment](https://workout-tracker3333.herokuapp.com/)
 
 ---
 
@@ -52,9 +59,9 @@ Email: mttnrdlph@gmail.com
 
 ## [Link to Github!](https://github.com/RobeandHat)
 
-## Functionality
+## Screenshot
 
-To come
+![Workout-Tracker](/public/images/workout-tracker.png)
 
 ## Licensing
 
